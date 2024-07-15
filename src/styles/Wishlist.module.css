@@ -1,0 +1,16 @@
+.featured-images-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Single column layout by default */
+  gap: 5px;
+  margin-top: 2%;
+  margin-bottom: 2%; /* Adjust spacing between items */
+}
+
+@media (min-width: 768px) {
+  .featured-images-grid {
+    grid-template-columns: repeat(
+      3,
+      1fr
+    ); /* Three columns in a row on larger screens */
+  }
+}
