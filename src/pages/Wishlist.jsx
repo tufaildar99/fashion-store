@@ -3,9 +3,9 @@ import { Heading } from "../components/Heading";
 import { Header } from "../components/Header";
 import { FeaturedImage } from "../components/FeaturedImage";
 import styles from "../styles/Wishlist.module.css";
+import { Newsletter } from "../components/Newsletter";
 
 const Wishlist = () => {
-  // Example product data
   const products = [
     {
       id: 1,
@@ -66,6 +66,7 @@ const Wishlist = () => {
           />
         ))}
       </div>
+      <Newsletter />
     </div>
   );
 };
