@@ -4,6 +4,7 @@ import { Header } from "../components/Header";
 import { FeaturedImage } from "../components/FeaturedImage";
 import styles from "../styles/Wishlist.module.css";
 import { Newsletter } from "../components/Newsletter";
+import { Footer } from "../components/Footer";
 
 const Wishlist = () => {
   const products = [
@@ -67,6 +68,7 @@ const Wishlist = () => {
         ))}
       </div>
       <Newsletter />
+      <Footer />
     </div>
   );
 };
