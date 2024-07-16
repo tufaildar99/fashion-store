@@ -6,6 +6,7 @@ import { Newsletter } from "../components/Newsletter";
 import { Footer } from "../components/Footer";
 import { Home } from "../components/Home";
 import { Features } from "../components/Features";
+import { Portraits } from "../components/Portraits";
 
 const Homepage = () => {
   return (
@@ -14,6 +15,7 @@ const Homepage = () => {
       <Header />
       <Home />
       <Features />
+      <Portraits />
       <Newsletter />
       <Footer />
     </div>
