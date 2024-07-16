@@ -1,0 +1,87 @@
+/* BestSelling.module.css */
+
+.bestSelling {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.textHeading {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.btnContainer button {
+  background-color: #ffffff;
+  color: #000000;
+  border: solid #000000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btnContainer button:hover {
+  background-color: #e55d50;
+}
+
+.productsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.productCard {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+  width: 300px;
+}
+
+.productCard:hover {
+  transform: translateY(-10px);
+}
+
+.productImage img {
+  width: 100%;
+  height: auto;
+}
+
+.productDetails {
+  padding: 15px;
+}
+
+.productTitle {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.productBrand {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: #777;
+  margin: 5px 0;
+}
+
+.productPrice {
+  font-family: "Playfair Display", serif;
+  font-size: 1.25rem;
+  color: #ff6f61;
+  margin: 10px 0;
+}
