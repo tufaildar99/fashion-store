@@ -1,0 +1,15 @@
+/* YourComponent.module.css */
+
+/* Flexbox container styles */
+.explorer {
+  display: flex; /* Use flexbox to make children align in a row */
+  gap: 10px;
+  background-color: #f9f9f9; /* Optional: Add spacing between Explore components */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .explorer {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+}

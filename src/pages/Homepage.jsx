@@ -8,6 +8,8 @@ import { Home } from "../components/Home";
 import { Features } from "../components/Features";
 import { Portraits } from "../components/Portraits";
 import { BestSelling } from "../components/BestSelling";
+import { Explore } from "../components/Explore";
+import styles from "../styles/Homepage.module.css";
 
 const Homepage = () => {
   return (
@@ -18,6 +20,21 @@ const Homepage = () => {
       <Features />
       <Portraits />
       <BestSelling />
+      <div className={styles.explorer}>
+        <Explore
+          src={"images/expman.png"}
+          text1={"Flat 20% Discount"}
+          text2={"Explore the Latest in Men's Fashion"}
+          text3={"Step into Style Unveiling the Newest Trends"}
+        />
+        <Explore
+          src={"images/expwomen.png"}
+          text1={"Flat 25% Discount"}
+          text2={"Explore the Latest in Women's Fashion"}
+          text3={"Elevate Your Wardrobe with Trendsetting Styles"}
+        />
+      </div>
+
       <Newsletter />
       <Footer />
     </div>
