@@ -11,6 +11,7 @@ import { BestSelling } from "../components/BestSelling";
 import { Explore } from "../components/Explore";
 import styles from "../styles/Homepage.module.css";
 import { NewsAndBlog } from "../components/NewsAndBlog";
+import { Faq } from "../components/Faq";
 
 const Homepage = () => {
   return (
@@ -36,6 +37,7 @@ const Homepage = () => {
         />
       </div>
       <NewsAndBlog />
+      <Faq />
       <Newsletter />
       <Footer />
     </div>

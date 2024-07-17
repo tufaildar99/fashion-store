@@ -1,0 +1,27 @@
+/* FaqCard.css */
+
+.faqCard {
+  background-color: #ffffff;
+  border: solid black 1px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.answer {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

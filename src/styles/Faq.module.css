@@ -1,0 +1,26 @@
+/* Faq.css */
+
+.faqSection {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.faqMain {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.faqHeading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1b1a1a;
+  margin-bottom: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.faqcardList {
+  list-style-type: none;
+  padding: 0;
+}
