@@ -10,6 +10,7 @@ import { Portraits } from "../components/Portraits";
 import { BestSelling } from "../components/BestSelling";
 import { Explore } from "../components/Explore";
 import styles from "../styles/Homepage.module.css";
+import { NewsAndBlog } from "../components/NewsAndBlog";
 
 const Homepage = () => {
   return (
@@ -34,7 +35,7 @@ const Homepage = () => {
           text3={"Elevate Your Wardrobe with Trendsetting Styles"}
         />
       </div>
-
+      <NewsAndBlog />
       <Newsletter />
       <Footer />
     </div>
