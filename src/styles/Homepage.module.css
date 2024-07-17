@@ -2,9 +2,11 @@
 
 /* Flexbox container styles */
 .explorer {
-  display: flex; /* Use flexbox to make children align in a row */
-  gap: 10px;
-  background-color: #f9f9f9; /* Optional: Add spacing between Explore components */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  background-color: #f9f9f9; /* Align items in a single horizontal row */
 }
 
 /* Responsive adjustments */

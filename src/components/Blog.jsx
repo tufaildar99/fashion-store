@@ -12,9 +12,9 @@ const Blog = ({ src, date, title, description }) => {
           {date}
         </Text>
         <div className={styles.description}>
-          <Text as={"h2"} className={styles.title}>
-            {title}
-          </Text>
+          <div className={styles.title}>
+            <Text as={"h2"}>{title}</Text>
+          </div>
           <Text as={"p"} className={styles.description}>
             {description}
           </Text>

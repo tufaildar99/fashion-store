@@ -34,10 +34,11 @@
 }
 
 .title {
-  font-size: 1.5em;
+  font-size: 1.1em;
   color: #333;
   margin: 10px 0;
   text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .description {
@@ -45,6 +46,7 @@
   color: #666;
   line-height: 1.6;
   text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @media (max-width: 768px) {

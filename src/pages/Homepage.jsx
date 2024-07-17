@@ -23,18 +23,22 @@ const Homepage = () => {
       <Portraits />
       <BestSelling />
       <div className={styles.explorer}>
-        <Explore
-          src={"images/expman.png"}
-          text1={"Flat 20% Discount"}
-          text2={"Explore the Latest in Men's Fashion"}
-          text3={"Step into Style Unveiling the Newest Trends"}
-        />
-        <Explore
-          src={"images/expwomen.png"}
-          text1={"Flat 25% Discount"}
-          text2={"Explore the Latest in Women's Fashion"}
-          text3={"Elevate Your Wardrobe with Trendsetting Styles"}
-        />
+        <div className={styles.card1}>
+          <Explore
+            src={"images/expman.png"}
+            text1={"Flat 20% Discount"}
+            text2={"Explore the Latest in Men's Fashion"}
+            text3={"Step into Style Unveiling the Newest Trends"}
+          />
+        </div>
+        <div className={styles.card2}>
+          <Explore
+            src={"images/expwomen.png"}
+            text1={"Flat 25% Discount"}
+            text2={"Explore the Latest in Women's Fashion"}
+            text3={"Elevate Your Wardrobe with Trendsetting Styles"}
+          />
+        </div>
       </div>
       <NewsAndBlog />
       <Faq />

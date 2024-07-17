@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   background-color: #78bcff;
-  border-radius: 5px;
+  border-radius: 7px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.3s, box-shadow 0.3s;
@@ -22,18 +22,21 @@
   flex: 1;
   padding: 20px;
   color: #333;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .textSection h4 {
   margin: 0;
   font-size: 1.2em;
-  color: #272626;
+  color: #424141;
 }
 
 .textSection h2 {
   margin: 10px 0;
   font-size: 2em;
-  color: #222;
+  color: #000000;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .textSection button {
