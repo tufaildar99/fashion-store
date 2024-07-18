@@ -1,0 +1,43 @@
+.filterBox {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+.checklistName {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.listContainer {
+  list-style-type: none;
+  padding: 0;
+}
+
+.listContainer li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.listContainer input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.link {
+  display: block;
+  text-align: right;
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

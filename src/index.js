@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import { Homepage } from "./pages/Homepage";
+import { Productlist } from "./pages/Productlist";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Homepage />
+    <Productlist />
   </React.StrictMode>
 );
 
