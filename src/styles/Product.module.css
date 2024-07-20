@@ -4,11 +4,7 @@
   overflow: hidden;
   transition: transform 0.3s;
   background-color: #fff;
-  margin-bottom: 20px;
-  width: 100%; /* Adjust the width as desired */
-  height: 95%;
-  /* Adjust the height as desired */
-  /* Add margin-right to create separation between cards */
+  margin: 0% 1%;
 }
 
 .productImage img {

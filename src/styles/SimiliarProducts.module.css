@@ -4,7 +4,7 @@
 }
 
 .heading {
-  text-align: left;
+  text-align: center;
   margin-bottom: 20px;
 }
 
@@ -16,8 +16,10 @@
 
 .product {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 800px;
-  height: 550px;
+  justify-content: left;
+  align-items: left;
+  width: 80%;
+  height: 70%;
+  padding: 0% 1%;
+  margin: 0% 9%;
 }

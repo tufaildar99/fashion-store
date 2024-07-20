@@ -24,6 +24,13 @@ const Products = [
     title: "Black Solid Tee",
     oldPrice: 999,
   },
+  {
+    src: "images/product1.png",
+    brand: "H&M",
+    price: 499,
+    title: "Black Solid Tee",
+    oldPrice: 999,
+  },
 ];
 
 const SimiliarProducts = () => {
