@@ -40,51 +40,6 @@
   gap: 10px;
 }
 
-.priceHeading {
-  margin-bottom: 20px;
-}
-
-.mrpDetailsBox {
-  background: #fff;
-  padding: 5px;
-  margin-bottom: 20px;
-  border-bottom: solid #000000 1px;
-}
-
-.totalMRP {
-  display: flex;
-  justify-content: space-between;
-  margin: 0px;
-  padding: 0px 0px;
-}
-
-.total {
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.amount {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-}
-
-.orderButton button {
-  width: 100%;
-  padding: 10px;
-  background: #000000;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 1.2em;
-}
-
-.orderButton button:hover {
-  background: #0056b3;
-}
-
 @media (max-width: 768px) {
   .cartContainer {
     flex-direction: column;

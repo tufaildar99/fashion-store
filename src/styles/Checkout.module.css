@@ -1,0 +1,40 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.checkoutContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.leftColumn {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.heading {
+  font-size: 15px;
+  border-bottom: solid rgb(203, 200, 200) 1px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.heading h2 {
+  margin-bottom: 0px;
+}
+.paymentOptions {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.paymentOption {
+  margin-bottom: 10px;
+  border: solid rgb(147, 144, 144) 1px;
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: 10px;
+  padding: 15px 0px;
+}
