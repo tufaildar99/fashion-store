@@ -3,20 +3,6 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-:root {
-  --primary-color: #ffffff;
-  --secondary-color: #ffffff;
-  --text-color: #333;
-  --border-color: #ddd;
-  --button-bg-color: #393939;
-  --button-hover-color: #357abd;
-  --button-text-color: #000000;
-  --input-border-color: #ccc;
-  --input-focus-border-color: #4a90e2;
-  --input-bg-color: #fff;
-  --label-color: #666;
-}
-
 .mainContainer {
   display: flex;
   padding: 20px;
@@ -30,6 +16,7 @@
   color: var(--button-text-color);
   margin-right: 20px;
   border-right: solid rgb(215, 212, 212) 1px;
+  max-width: 30%;
 }
 
 .tabsVertical {
@@ -72,52 +59,4 @@
 
 .logoutDiv button:hover {
   background-color: #ccc;
-}
-
-.formDiv {
-  flex: 2;
-  padding: 20px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-label {
-  color: #000000;
-  font-size: 17px;
-  font-weight: 20px;
-}
-
-input,
-select {
-  padding: 10px;
-  border: 1px solid var(--input-border-color);
-  border-radius: 4px;
-  font-size: 16px;
-  transition: border-color 0.3s ease;
-}
-
-input:focus,
-select:focus {
-  border-color: var(--input-focus-border-color);
-  outline: none;
-}
-
-button[type="submit"]:hover {
-  background-color: var(--button-hover-color);
-}
-
-.formDiv button {
-  background-color: #313030;
-  border: none;
-  color: #fffcfc;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-  width: 25%;
 }

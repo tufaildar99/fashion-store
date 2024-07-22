@@ -3,25 +3,10 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-:root {
-  --primary-color: #4a90e2;
-  --secondary-color: #ffffff;
-  --text-color: #333;
-  --border-color: #807c7c;
-  --button-bg-color: #4a90e2;
-  --button-hover-color: #357abd;
-  --button-text-color: #fff;
-  --heading-color: #222;
-  --subheading-color: #555;
-  --arrival-color: #000000;
-  --image-border-color: #e0e0e0;
-}
-
 .main {
-  padding: 20px;
   background-color: var(--secondary-color);
   border-radius: 8px;
-  max-width: 600px;
+  max-width: 100%;
   margin: 20px auto;
   border: solid rgb(229, 226, 226) 1px;
 }
@@ -30,6 +15,7 @@
   color: var(--arrival-color);
   font-weight: normal;
   font-size: 16px;
+  padding-left: 7px;
 }
 
 .details {
@@ -40,7 +26,7 @@
 .imageonLeft img {
   width: 150px;
   height: auto;
-  border: 1px solid var(--image-border-color);
+  padding-left: 7px;
 }
 
 .detailsRight {
