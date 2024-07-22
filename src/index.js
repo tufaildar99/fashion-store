@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import { MyAccountPersonal } from "./pages/MyAccountPersonal";
+import { OrderDetails } from "./components/OrderDetails";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <MyAccountPersonal />
+    <OrderDetails />
   </React.StrictMode>
 );
 
